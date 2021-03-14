@@ -1,0 +1,95 @@
+Abstraction and DRY(Don’t repeat yourself)
+Polymorphism
+Encapsulation
+Delegation
+
+
+Object
+
+Ball - Abstract class
+
+Abstract class Ball {
+
+// attributs
+Priviate int radius
+Private string colour
+Private int weight
+Private string game
+
+	public Ball(int radius, string colour, int weight, string game)
+	{
+		this.radius = 
+	}
+
+// methods
+Public void bounce(int speed)
+{
+
+// calculate the total bounce back and bounce direction based on
+// speed, gravity and weight.
+
+// then bounce the ball 
+
+}
+
+Public void spin(int totalRevolution)
+{
+	// based on the revolution and direction determine the
+	// spin and spin the ball
+}
+
+Public void roll(int speed)
+{
+	// calculate the total distance for the ball to travel 
+	// based on speed and gravity and surface of the ball and
+	// ground
+}
+
+Public abstract void collissionEffect(int force, string surface);
+
+}
+
+
+
+
+
+
+
+
+
+Football - concrete class
+
+Class Football extends Ball {
+
+Public FootBall(int radius, string colour, int weight, string game)
+{
+	Super()
+	{
+
+	}
+}
+
+
+
+}
+
+
+
+
+Football players object - 
+Mysql connection object -
+
+
+Under main() -
+
+MysqlCon mysql = new MysqlCon(str)
+
+FootballPlayers playersList = new FootballPlayers(mysql)
+
+Private string con = 
+
+
+// march 21
+Design patterns
+
+Design principles
