@@ -93,3 +93,35 @@ Private string con =
 Design patterns
 
 Design principles
+
+interface => implementaion
+extends   => (contrete class or an abstract class)
+
+interface
+
+Table table = new Diningtable()
+|
+|
+|
+|
+table = new Workingtable()
+
+
+// design patterns
+1. Creational
+2. Structural
+3. Behavioural
+
+
+1. Creational:
+	1. Building:
+		DataBase dbObj = new
+			DataBase()
+				.table('employee')
+				.Select('empid')
+				.where('empPhone','xxxxxx')
+				.get()
+
+
+
+
